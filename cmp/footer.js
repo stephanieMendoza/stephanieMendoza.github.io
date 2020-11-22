@@ -5,7 +5,7 @@ class PiePagina extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer>
-        Copyright &copy; 2020 Arroyo Mendoza Stephanie.
+            Fany
         </footer>
         `
     }

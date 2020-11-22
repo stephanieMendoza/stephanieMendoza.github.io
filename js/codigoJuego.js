@@ -95,11 +95,11 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = []
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length / 2) {
-            resultDisplay.textContent = ¡Felicidades! ¡Encontraste todos los pares!
+            resultDisplay.textContent = 'Congratulations! You found them all!'
         }
     }
 
-    //Metodo para girar la tarjeta
+    //flip your card
     function flipCard() {
         var cardId = this.getAttribute('data-id')
         cardsChosen.push(cardArray[cardId].name)
