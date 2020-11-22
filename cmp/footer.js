@@ -5,7 +5,7 @@ class PiePagina extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer>
-            Fany
+            Stephanie 
         </footer>
         `
     }
